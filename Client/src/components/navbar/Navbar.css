@@ -1,0 +1,46 @@
+*,*::after,*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    font-size: 80.5%;
+}
+  
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    position: sticky;
+    background: linear-gradient(to right, rgb(194, 211, 211), rgb(248,244,236), rgb(255, 251, 240));
+}
+.nav-links {
+    position: sticky;
+    list-style: none;
+    display: flex;
+    justify-content: flex-center;
+    gap: 4rem;
+}
+
+
+.About, .Shop, .Register, .Home {
+    text-decoration: none;
+    color: rgb(34, 33, 0);
+    transition: all 0-3s ease;
+    font-size: 24.5px;
+    letter-spacing: 1px;
+    text-shadow: 5px 5x 5px black;  
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+}
